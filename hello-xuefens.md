@@ -73,11 +73,11 @@ $$
 + fortran
 + JavaScript
 
-> 埃拉托斯特尼筛法 (the Sieve of Eratosthenes)
+> 欧拉筛法 (the Sieve of Euler)
 >
 
 ```cpp
-// Linear Sieve - Generating Prime Table in [1, n]
+// Sieve Of Euler - Generating Prime Table in [1, n]
 int Sieve(int n, int *prime, bool *isPrime) {
     int cnt = 0;
     isPrime[1] = false;
